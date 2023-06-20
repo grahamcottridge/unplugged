@@ -92,7 +92,7 @@ textarea {
 */
    /* General Styles */
     
-   html {
+html {
   font-size: 1rem;
 }
 
@@ -150,6 +150,7 @@ address {
 }
 
 /* -------------------- Base Header - Footer Styles -------------------- */
+
 header {
   display: flex;
   justify-content: center;
@@ -340,6 +341,7 @@ input[type=button] {
 }
 
 /* -------------------- Mobile Styles - faq page -------------------- */
+
 .faq {
   display: flex;
   justify-content: center;
@@ -459,6 +461,7 @@ input[type=button] {
   /*Tablet styles here*/
 
   /* General styles */
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -475,6 +478,7 @@ input[type=button] {
   }
 
   /* Header */
+
   header {
     padding: 33px 0;
   }
@@ -509,6 +513,7 @@ input[type=button] {
   }
 
   /* Aside */
+
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -540,6 +545,7 @@ input[type=button] {
   }
 
   /* Reviews */
+
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -559,6 +565,7 @@ input[type=button] {
   }
 
   /* Footer */
+
   footer .content-wrapper {
     width: 65%;
   }
@@ -639,11 +646,13 @@ input[type=button] {
   /*Desktop styles here*/
 
   /* General styles */
+
   .content-wrapper {
     max-width: 960px;
   }
 
   /* Header */
+
   header {
     padding: 15px 0;
   }
@@ -663,11 +672,13 @@ input[type=button] {
   }
 
   /* Hero */
+
   .hero-area h1 {
     width: 80%;
   }
 
   /* Aside */
+
   aside .content-wrapper {
     justify-content: space-around;
   }
@@ -692,6 +703,7 @@ input[type=button] {
   }
 
   /* Reviews */
+
   .reviews h2 {
     padding-bottom: 50px;
   }
@@ -728,18 +740,18 @@ input[type=button] {
   }
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
+   
+@media print,
+   (-webkit-min-device-pixel-ratio: 1.25),
+   (min-resolution: 1.25dppx),
+   (min-resolution: 120dpi) {
+   /* Style adjustments for high resolution devices */
+ }
 
 @media print {
   *,
